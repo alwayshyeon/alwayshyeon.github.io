@@ -1,11 +1,11 @@
 ---
-layout: post
-title: post-sample
-date: 2020-01-02 19:20:23 +0900
-category: sample
+layout: Chapter 04
+title: Chapter 04 다양한 분류 알고리즘
+date: 2025-05-14 21:00:00 +0900
+category: 혼자 공부하는 머신러닝
 ---
-# post-sample
-> Hello!
+# Chapter 04 다양한 분류 알고리즘
+> 로지스틱 회귀, 확률적 경사 하강법
 
 This is code
 ```ruby
