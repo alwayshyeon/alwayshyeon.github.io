@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-## Theme Monos
-> Simple and lightweight theme for Jekyll
+## Han Sang Hyeon
+> 눈나난나
 
 ### Features
 - Responsive.
