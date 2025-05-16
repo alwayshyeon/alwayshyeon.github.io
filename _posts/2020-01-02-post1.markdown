@@ -1,5 +1,5 @@
 ---
-layout: Chapter 04
+layout: post
 title: Chapter 04 다양한 분류 알고리즘
 date: 2025-05-14 21:00:00 +0900
 category: 혼자 공부하는 머신러닝
