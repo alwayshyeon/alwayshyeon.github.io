@@ -1,0 +1,13 @@
+---
+layout: post
+title: Chapter 03 회귀 알고리즘과 모델 규제
+date: 2025-04-24 21:00:00 +0900
+category: 혼자 공부하는 머신러닝
+---
+# Chapter 03 회귀 알고리즘과 모델 규제
+> K-최근접 이웃 회귀, 선형 회귀, 특성 공학과 규제
+
+This is code
+```ruby
+print 'hello world'
+```
