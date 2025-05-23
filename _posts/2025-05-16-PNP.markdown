@@ -16,7 +16,7 @@ category: 혼자 공부하는 머신러닝
 입력 데이터가 잘 준비되었는지 확인하기  
 
 
-```ruby
+```ruby  
 import pandas as pd
 
 fish = pd.read_csv('https://bit.ly/fish_csv_data')  #CSV 파일을 데이터프레임으로 변환
