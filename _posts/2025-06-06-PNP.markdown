@@ -1,0 +1,13 @@
+---
+layout: post
+title: Chapter 07 딥러닝을 시작합니다
+date: 2025-06-05 21:00:00 +0900
+category: 혼자 공부하는 머신러닝
+---
+# Chapter 07 딥러닝을 시작합니다
+> 인공 신경망, 심층 신경망, 신경망 모델 훈련
+
+This is code
+```ruby
+print 'hello world'
+```
