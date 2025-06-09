@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Chapter 05 트리 알고리즘
+title: Chapter 06 비지도 학습습
 date: 2025-05-29 21:00:00 +0900
 category: 혼자 공부하는 머신러닝
 ---
-# Chapter 06 비지도 학습습
+# Chapter 06 비지도 학습
 > 군집 알고리즘, K-평균, 주성분 분석
 
 This is code
