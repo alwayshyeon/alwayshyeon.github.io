@@ -125,3 +125,17 @@ print(kn49.score(fish_data, fish_target))
   - 다수 클래스(예: 도미)가 소수 클래스(빙어)를 덮어버림.
 
 - 적절한 K는 데이터 수의 √(제곱근) 정도 
+
+### 확인 문제
+
+```python
+for n in range(5, 50):
+    # k-최근접 이웃 개수 설정
+    kn.n_neighbors = n
+    # 점수 계산
+    score = kn.score(fish_data, fish_target)
+    # 100% 정확도에 미치지 못하는 이웃 개수 출력
+    if score < 1:
+        print(n, score)
+        break
+```
