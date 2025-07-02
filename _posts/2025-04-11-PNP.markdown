@@ -7,7 +7,121 @@ category: 혼자 공부하는 머신러닝
 # Chapter 01 나의 첫 머신러닝
 > 인공지능과 머신러닝, 코랩과 주피터 노트북, 마켓과 머신러닝
 
-This is code
-```ruby
-print 'hello world'
+## 1. 인공지능(AI)이란?
+
+- 사람처럼 **학습**하고 **추론**할 수 있는 지능을 가진 컴퓨터 시스템을 만드는 기술
+
+### AI 역사 한눈에 보기
+
+| 연도 | 사건 |
+|------|------|
+| 1943 | 최초로 뇌의 뉴런 개념 발표 (매컬록 & 피츠) |
+| 1950 | 앨런 튜링 - 튜링 테스트 발표 |
+| 1956 | 다트머스 AI 컨퍼런스 |
+| 1957 | 퍼셉트론 발표 (인공 신경망의 시작) |
+| 1959 | 고양이 시각 피질 뉴런 연구 (허블 & 비셀) |
+| 이후 | AI 겨울을 극복하고 딥러닝으로 재조명 |
+
+---
+
+## 2. 머신러닝(ML)이란?
+
+>  규칙을 프로그래밍하지 않아도 자동으로 데이터에서 규칙을 학습하는 알고리즘을 연구하는 분야
+
+- 대표 라이브러리: **scikit-learn**
+  - Python API 제공
+  - k-NN, SVM, 의사결정트리 등 다양한 기본 알고리즘 포함
+
+---
+
+## 3. 딥러닝(DL)이란?
+
+> 많은 머신러닝 알고리즘 중 **인공 신경망**(ANN)을 기반으로 한 학습 방법들을 통칭
+
+### 딥러닝 발전의 원동력
+
+- 대용량 데이터
+- 컴퓨터 성능 향상 (GPU, 클라우드)
+- 혁신적 알고리즘 (CNN, RNN, LSTM 등)
+
+### 주요 라이브러리
+
+- TensorFlow (구글)
+- PyTorch (페이스북)
+
+---
+
+## 4. Google Colab과 Jupyter Notebook
+
+- **Colab**: 웹 브라우저에서 Python 코드를 실행할 수 있는 무료 클라우드 주피터 노트북
+- **셀(Cell)**: 실행 단위 (코드 셀 & 텍스트 셀)
+  - 텍스트 셀: Markdown + HTML 혼용 가능
+- GPU 사용 가능 & 코드 공유 용이
+
+---
+
+## 5. 실습 예제: 생선 분류 문제와 KNN
+
+머신러닝에서는 프로그램이 직접 기준을 찾는다.  
+**물고기 길이/무게 데이터로 도미와 빙어를 분류**하는 문제
+
+---
+
+### 데이터 준비
+
+```python
+# 길이와 무게 데이터
+length = [25, 32, 35, 40, ...]
+weight = [200, 300, 400, 500, ...]
+
+# zip()으로 묶어 2차원 리스트 생성
+fish_data = [[l, w] for l, w in zip(length, weight)]
+
+# 찾으려는 대상을 1, 그 외에는 0
+# 정답 데이터 (도미: 1, 빙어: 0)
+fish_target = [1]*35 + [0]*14
 ```
+### 데이터 시각화
+
+```python
+import matplotlib.pyplot as plt
+
+# 산점도를 그리는 맷플롯립 함수
+plt.scatter(length, weight)
+plt.xlabel('length')
+plt.ylabel('weight')
+plt.title('Fish Data Scatter Plot')
+plt.show()
+```
+- 도미와 빙어를 색상으로 구분하면 더욱 직관적으로 나타낼 수 있다.
+
+### K-최근접 이웃(KNN) 알고리즘
+
+```python
+from sklearn.neighbors import KNeighborsClassifier
+
+# 모델 생성 & 훈련
+kn = KNeighborsClassifier()
+kn.fit(fish_data, fish_target)
+
+# 정확도 확인
+print(kn.score(fish_data, fish_target))  # 1.0에 가까울수록 좋음
+
+# 새로운 물고기 예측
+print(kn.predict([[30, 600]]))  # 도미?
+print(kn.predict([[10, 10]]))   # 빙어?
+```
+
+### K값(n_neighbors) 조절하기
+
+```python
+# 참고 데이터 개수를 늘려보기
+kn49 = KNeighborsClassifier(n_neighbors=49)
+kn49.fit(fish_data, fish_target)
+print(kn49.score(fish_data, fish_target))
+```
+
+- K값이 너무 크면?
+ + 다수 클래스(예: 도미)가 소수 클래스(빙어)를 덮어버림.
+
+- 적절한 K는 데이터 수의 √(제곱근) 정도 
