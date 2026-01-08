@@ -11,6 +11,21 @@ minify:
   disableXML: true
   minifyOutput: true
 
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+
 params:
   env: production
   title: "AlwaysHyeon Security"
@@ -25,7 +40,7 @@ params:
     favicon32x32: "/favicon.png"
 
   profileMode:
-    enabled: true
+    enabled: false
     title: "AlwaysHyeon"
     subtitle: "Security Researcher"
     buttons:
@@ -33,6 +48,19 @@ params:
         url: "https://github.com/alwayshyeon"
       - name: Email
         url: "mailto:alwayshyeon19@gmail.com"
+
+  homeInfoParams:
+    Title: "AlwaysHyeon Security 🛡️"
+    Content: >
+      Welcome to my security research blog.
+      
+      Here I post CTF write-ups, vulnerability analysis, and study logs.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/alwayshyeon"
+    - name: email
+      url: "mailto:alwayshyeon19@gmail.com"
 
   math: true
 
@@ -45,3 +73,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
