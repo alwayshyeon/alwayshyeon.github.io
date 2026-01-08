@@ -33,6 +33,8 @@ params:
   author: "AlwaysHyeon"
   defaultTheme: auto
   ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
 
   assets:
     favicon: "/favicon.png"
