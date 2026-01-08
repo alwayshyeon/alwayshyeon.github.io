@@ -1,0 +1,41 @@
+baseURL: "https://alwayshyeon.github.io/"
+languageCode: "ko-kr"
+title: "AlwaysHyeon Security"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "AlwaysHyeon Security"
+  description: "Security Researcher / CTF / Write-up"
+  author: "AlwaysHyeon"
+  defaultTheme: auto
+  ShowCodeCopyButtons: true
+  profileMode:
+    enabled: true
+    title: "AlwaysHyeon"
+    subtitle: "Security Researcher 🛡️ | CTF Player"
+    buttons:
+      - name: GitHub
+        url: "https://github.com/alwayshyeon"
+      - name: Email
+        url: "mailto:your-email@example.com"
+
+  math: true
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+    anchorLineNos: true
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
