@@ -18,15 +18,21 @@ params:
   author: "AlwaysHyeon"
   defaultTheme: auto
   ShowCodeCopyButtons: true
+
+  assets:
+    favicon: "/favicon.png"
+    favicon16x16: "/favicon.png"
+    favicon32x32: "/favicon.png"
+
   profileMode:
     enabled: true
     title: "AlwaysHyeon"
-    subtitle: "Security Researcher 🛡️ | CTF Player"
+    subtitle: "Security Researcher"
     buttons:
       - name: GitHub
         url: "https://github.com/alwayshyeon"
       - name: Email
-        url: "mailto:your-email@example.com"
+        url: "mailto:alwayshyeon19@gmail.com"
 
   math: true
 
