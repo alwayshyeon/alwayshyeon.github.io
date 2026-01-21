@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/posts/test-post/</guid>
       <description>Hugo PaperMod 테마 적용 테스트 글입니다. 마크다운 문법과 코드 하이라이팅이 잘 적용되는지 확인합니다.</description>
     </item>
+    <item>
+      <title>bandit level 0</title>
+      <link>http://localhost:1313/posts/bandit0/</link>
+      <pubDate>Sat, 01 Nov 2025 21:30:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/bandit0/</guid>
+      <description>bandit level 0</description>
+    </item>
   </channel>
 </rss>
