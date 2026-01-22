@@ -68,10 +68,10 @@ params:
 
 markup:
   highlight:
-    noClasses: false
+    noClasses: true
     lineNos: true
     anchorLineNos: true
-    style: monokai
+    style: dracula
   goldmark:
     renderer:
       unsafe: true
