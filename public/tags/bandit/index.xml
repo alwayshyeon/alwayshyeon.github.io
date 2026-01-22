@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Bandit on AlwaysHyeon Security</title>
-    <link>http://localhost:1313/tags/bandit/</link>
+    <link>https://alwayshyeon.github.io/tags/bandit/</link>
     <description>Recent content in Bandit on AlwaysHyeon Security</description>
     <generator>Hugo -- 0.154.3</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sat, 01 Nov 2025 21:30:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/bandit/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alwayshyeon.github.io/tags/bandit/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>bandit level 0</title>
-      <link>http://localhost:1313/posts/bandit0/</link>
+      <title>[Wargame] Bandit Level 0 -&gt; Level 1</title>
+      <link>https://alwayshyeon.github.io/posts/bandit/bandit0/</link>
       <pubDate>Sat, 01 Nov 2025 21:30:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/bandit0/</guid>
-      <description>bandit level 0</description>
+      <guid>https://alwayshyeon.github.io/posts/bandit/bandit0/</guid>
+      <description>OverTheWire Bandit Level 0 풀이 및 SSH 접속 에러 해결</description>
+    </item>
+    <item>
+      <title>[Wargame] Bandit Level 1 -&gt; Level 2</title>
+      <link>https://alwayshyeon.github.io/posts/bandit/bandit1/</link>
+      <pubDate>Sat, 01 Nov 2025 21:30:00 +0900</pubDate>
+      <guid>https://alwayshyeon.github.io/posts/bandit/bandit1/</guid>
+      <description>OverTheWire Bandit Level 1 풀이</description>
     </item>
   </channel>
 </rss>

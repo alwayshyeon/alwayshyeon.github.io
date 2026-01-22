@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on AlwaysHyeon Security</title>
-    <link>http://localhost:1313/categories/linux/</link>
+    <link>https://alwayshyeon.github.io/categories/linux/</link>
     <description>Recent content in Linux on AlwaysHyeon Security</description>
     <generator>Hugo -- 0.154.3</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 08 Jan 2026 21:30:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alwayshyeon.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>리눅스 사용법 한 눈에 살펴보기</title>
-      <link>http://localhost:1313/posts/2026-01-08/</link>
+      <title>리눅스 필수 명령어 가이드</title>
+      <link>https://alwayshyeon.github.io/posts/linux_guide/</link>
       <pubDate>Thu, 08 Jan 2026 21:30:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2026-01-08/</guid>
-      <description>리눅스 사용법 정리글</description>
+      <guid>https://alwayshyeon.github.io/posts/linux_guide/</guid>
+      <description>리눅스 셸 기본부터 고급 명령어까지</description>
     </item>
   </channel>
 </rss>

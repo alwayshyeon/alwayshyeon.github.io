@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on AlwaysHyeon Security</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://alwayshyeon.github.io/categories/</link>
     <description>Recent content in Categories on AlwaysHyeon Security</description>
     <generator>Hugo -- 0.154.3</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 08 Jan 2026 21:30:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alwayshyeon.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/categories/linux/</link>
+      <link>https://alwayshyeon.github.io/categories/linux/</link>
       <pubDate>Thu, 08 Jan 2026 21:30:00 +0900</pubDate>
-      <guid>http://localhost:1313/categories/linux/</guid>
+      <guid>https://alwayshyeon.github.io/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Log</title>
-      <link>http://localhost:1313/categories/log/</link>
+      <link>https://alwayshyeon.github.io/categories/log/</link>
       <pubDate>Thu, 08 Jan 2026 20:45:00 +0900</pubDate>
-      <guid>http://localhost:1313/categories/log/</guid>
+      <guid>https://alwayshyeon.github.io/categories/log/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wargame</title>
+      <link>https://alwayshyeon.github.io/categories/wargame/</link>
+      <pubDate>Sat, 01 Nov 2025 21:30:00 +0900</pubDate>
+      <guid>https://alwayshyeon.github.io/categories/wargame/</guid>
       <description></description>
     </item>
   </channel>

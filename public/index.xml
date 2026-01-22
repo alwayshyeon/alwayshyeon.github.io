@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AlwaysHyeon Security</title>
-    <link>http://localhost:1313/</link>
+    <link>https://alwayshyeon.github.io/</link>
     <description>Recent content on AlwaysHyeon Security</description>
     <generator>Hugo -- 0.154.3</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 08 Jan 2026 21:30:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alwayshyeon.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>리눅스 사용법 한 눈에 살펴보기</title>
-      <link>http://localhost:1313/posts/2026-01-08/</link>
+      <title>리눅스 필수 명령어 가이드</title>
+      <link>https://alwayshyeon.github.io/posts/linux_guide/</link>
       <pubDate>Thu, 08 Jan 2026 21:30:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/2026-01-08/</guid>
-      <description>리눅스 사용법 정리글</description>
+      <guid>https://alwayshyeon.github.io/posts/linux_guide/</guid>
+      <description>리눅스 셸 기본부터 고급 명령어까지</description>
     </item>
     <item>
       <title>블로그 테스트 및 첫 번째 글 (Hello World)</title>
-      <link>http://localhost:1313/posts/test-post/</link>
+      <link>https://alwayshyeon.github.io/posts/test-post/</link>
       <pubDate>Thu, 08 Jan 2026 20:45:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/test-post/</guid>
+      <guid>https://alwayshyeon.github.io/posts/test-post/</guid>
       <description>Hugo PaperMod 테마 적용 테스트 글입니다. 마크다운 문법과 코드 하이라이팅이 잘 적용되는지 확인합니다.</description>
     </item>
     <item>
-      <title>bandit level 0</title>
-      <link>http://localhost:1313/posts/bandit0/</link>
+      <title>[Wargame] Bandit Level 0 -&gt; Level 1</title>
+      <link>https://alwayshyeon.github.io/posts/bandit/bandit0/</link>
       <pubDate>Sat, 01 Nov 2025 21:30:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/bandit0/</guid>
-      <description>bandit level 0</description>
+      <guid>https://alwayshyeon.github.io/posts/bandit/bandit0/</guid>
+      <description>OverTheWire Bandit Level 0 풀이 및 SSH 접속 에러 해결</description>
+    </item>
+    <item>
+      <title>[Wargame] Bandit Level 1 -&gt; Level 2</title>
+      <link>https://alwayshyeon.github.io/posts/bandit/bandit1/</link>
+      <pubDate>Sat, 01 Nov 2025 21:30:00 +0900</pubDate>
+      <guid>https://alwayshyeon.github.io/posts/bandit/bandit1/</guid>
+      <description>OverTheWire Bandit Level 1 풀이</description>
     </item>
   </channel>
 </rss>

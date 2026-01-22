@@ -2,47 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/2026-01-08/</loc>
+    <loc>https://alwayshyeon.github.io/posts/linux_guide/</loc>
     <lastmod>2026-01-08T21:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/test-post/</loc>
+    <loc>https://alwayshyeon.github.io/posts/test-post/</loc>
     <lastmod>2026-01-08T20:45:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://alwayshyeon.github.io/posts/bandit/bandit0/</loc>
+    <lastmod>2025-11-01T21:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://alwayshyeon.github.io/posts/bandit/bandit1/</loc>
+    <lastmod>2025-11-01T21:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://alwayshyeon.github.io/</loc>
     <lastmod>2026-01-08T21:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://alwayshyeon.github.io/categories/</loc>
     <lastmod>2026-01-08T21:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dreamhack.io/</loc>
+    <loc>https://alwayshyeon.github.io/tags/dreamhack.io/</loc>
     <lastmod>2026-01-08T21:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/linux/</loc>
+    <loc>https://alwayshyeon.github.io/categories/linux/</loc>
     <lastmod>2026-01-08T21:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://alwayshyeon.github.io/tags/linux/</loc>
     <lastmod>2026-01-08T21:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://alwayshyeon.github.io/posts/</loc>
     <lastmod>2026-01-08T21:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://alwayshyeon.github.io/tags/</loc>
     <lastmod>2026-01-08T21:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/free-talk/</loc>
+    <loc>https://alwayshyeon.github.io/tags/free-talk/</loc>
     <lastmod>2026-01-08T20:45:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://alwayshyeon.github.io/tags/hugo/</loc>
     <lastmod>2026-01-08T20:45:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/log/</loc>
+    <loc>https://alwayshyeon.github.io/categories/log/</loc>
     <lastmod>2026-01-08T20:45:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/test/</loc>
+    <loc>https://alwayshyeon.github.io/tags/test/</loc>
     <lastmod>2026-01-08T20:45:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://alwayshyeon.github.io/tags/bandit/</loc>
+    <lastmod>2025-11-01T21:30:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://alwayshyeon.github.io/posts/bandit/</loc>
+    <lastmod>2025-11-01T21:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://alwayshyeon.github.io/tags/security/</loc>
+    <lastmod>2025-11-01T21:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://alwayshyeon.github.io/tags/ssh/</loc>
+    <lastmod>2025-11-01T21:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://alwayshyeon.github.io/categories/wargame/</loc>
+    <lastmod>2025-11-01T21:30:00+09:00</lastmod>
+  </url><url>
+    <loc>https://alwayshyeon.github.io/archives/</loc>
+  </url><url>
+    <loc>https://alwayshyeon.github.io/search/</loc>
   </url>
 </urlset>
