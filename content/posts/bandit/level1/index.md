@@ -3,7 +3,6 @@ title: "[Wargame] Bandit Level 1 -> Level 2"
 date: 2025-11-01T21:30:00+09:00
 draft: false
 weight: 1
-aliases: ["/study"]
 
 tags: ["Security", "Bandit", "Linux", "SSH"]
 categories: ["Wargame"]
@@ -14,12 +13,6 @@ summary: "OverTheWire Bandit Level 1 풀이"
 
 showToc: true
 TocOpen: true
-
-cover:
-    image: ""
-    alt: "Test Image"
-    caption: "Test Caption"
-    relative: true
 ---
 
 ## 문제

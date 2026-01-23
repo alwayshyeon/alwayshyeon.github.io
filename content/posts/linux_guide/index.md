@@ -3,10 +3,9 @@ title: "리눅스 필수 명령어 가이드"
 date: 2026-01-08T21:30:00+09:00
 draft: false
 weight: 1
-aliases: ["/study"]
 
 tags: ["Linux", "Dreamhack.io"]
-categories: ["Linux"]
+categories: ["Study"]
 
 author: "AlwaysHyeon"
 

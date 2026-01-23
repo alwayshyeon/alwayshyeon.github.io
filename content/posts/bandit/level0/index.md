@@ -3,7 +3,6 @@ title: "[Wargame] Bandit Level 0 -> Level 1"
 date: 2025-11-01T21:30:00+09:00
 draft: false
 weight: 1
-aliases: ["/study"]
 
 tags: ["Security", "Bandit", "Linux", "SSH"]
 categories: ["Wargame"]
@@ -14,12 +13,6 @@ summary: "OverTheWire Bandit Level 0 풀이 및 SSH 접속 에러 해결"
 
 showToc: true
 TocOpen: true
-
-cover:
-    image: ""
-    alt: "Test Image"
-    caption: "Test Caption"
-    relative: true
 ---
 # Bandit 시작
 ```bash

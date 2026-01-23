@@ -3,7 +3,6 @@ title: "[Wargame] Bandit Level 4 -> Level 5"
 date: 2025-11-15T21:30:00+09:00
 draft: false
 weight: 1
-aliases: ["/study"]
 
 tags: ["Security", "Bandit", "Linux"]
 categories: ["Wargame"]
@@ -14,12 +13,6 @@ summary: "OverTheWire Bandit Level 4 풀이"
 
 showToc: true
 TocOpen: true
-
-cover:
-    image: ""
-    alt: "Test Image"
-    caption: "Test Caption"
-    relative: true
 ---
 
 ## 문제
